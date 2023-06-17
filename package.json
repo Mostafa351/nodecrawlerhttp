@@ -1,0 +1,18 @@
+{
+  "name": "nodecrawlerhttp",
+  "version": "1.0.0",
+  "description": "A Command line application that runs locally using node.js, The purpose of this application to crawl a website and produce  a report of the internal linking structure of the website, such app is used by web marketers or SEO search engines",
+  "main": "main.js",
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings main.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
